@@ -1,49 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-body {font-family: var(--paragraph-font); max-width: 960px; padding: 20px;}
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;}
 :root {--primary-color: #xxxxxx;
 --secondary-color: #xxxxxx;
 --accent1-color: #xxxxxx; 
 --accent2-color: #xxxxxx;
-
-
 --heading-font: '         ', serif;
 --paragraph-font: '       ', serif;
-
 --nav-background-color: #xxxxxx;
 --nav-link-color: #xxxxxx; 
 --nav-hover-link-color: #xxxxxx;
 --nav-hover-background-color: #xxxxxx;}
-
-body {f     : var(--paragraph-font);
+body {f: var(--paragraph-font);
     m        :         ;
     p         :        ;
 }
-
 h1, h2, h3, h4, h5, h6 {font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
 header {
     padding: 20px;
     background-color: var(--acccent1-color);
 }
 
 p {padding: 25px;}
-
 nar {
     background-color: var(--nav-backgroum-color);
     font-size: 1.2rem;
     display: flex;
 }
-
 nar {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
-nav a:linl, nav a:visited {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
