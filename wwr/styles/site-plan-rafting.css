@@ -12,13 +12,15 @@ body {font-family: var(--paragraph-font);
 --nav-link-color: #xxxxxx; 
 --nav-hover-link-color: #xxxxxx;
 --nav-hover-background-color: #xxxxxx;}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
 body {
     f ________: var(--paragraph-font);
     m________: __________ ;
     p________: __________;}
-h1, h2, h3, h4, h5, h6 {font-family: var(--heading-font);
-    color: var(--primary-color);
-}
+
 header {
     padding: 20px;
     background-color: var(--acccent1-color);
