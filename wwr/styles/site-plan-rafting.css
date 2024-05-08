@@ -6,16 +6,16 @@ body {font-family: var(--paragraph-font);
 --secondary-color: #xxxxxx;
 --accent1-color: #xxxxxx; 
 --accent2-color: #xxxxxx;
---heading-font: '         ', serif;
---paragraph-font: '       ', serif;
+--heading-font: '__________', serif;
+--paragraph-font: '_________', serif;
 --nav-background-color: #xxxxxx;
 --nav-link-color: #xxxxxx; 
 --nav-hover-link-color: #xxxxxx;
 --nav-hover-background-color: #xxxxxx;}
-body {f: var(--paragraph-font);
-    m        :         ;
-    p         :        ;
-}
+body {
+    f ________: var(--paragraph-font);
+    m________: __________ ;
+    p________: __________;}
 h1, h2, h3, h4, h5, h6 {font-family: var(--heading-font);
     color: var(--primary-color);
 }
