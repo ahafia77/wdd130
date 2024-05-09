@@ -5,7 +5,6 @@ display: block;
 padding: 20px;}
 
 h1 {color: steelblue;}
-/* Class selectors */
 
 img {width: 150px;
 height: auto;
@@ -14,7 +13,7 @@ padding: 2px;
 box-shadow: 0 0 30px gray;}
 
 p {padding: 10px;}
-
+/* Class selectors */
 * {margin: 0;
 padding: 0;
 box-sizing: border-box;}
