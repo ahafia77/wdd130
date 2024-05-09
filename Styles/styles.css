@@ -3,6 +3,9 @@ padding: 10px;}
 nav a {color: white;
 display: block;
 padding: 20px;}
+
+/* Class selectors */
+
 h1 {color: steelblue;}
 img {width: 150px;
 height: auto;
@@ -14,7 +17,6 @@ p {padding: 10px;}
 * {margin: 0;
 padding: 0;
 box-sizing: border-box;}
-/* Class selectors */
 
 box { margin: 1rem;
 border: 1px solid rgba(0,0,0,.1);
