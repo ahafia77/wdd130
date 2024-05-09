@@ -17,9 +17,9 @@ h1, h2, h3, h4, h5, h6{
     color: var(--primary-color);
 }
 body {
-    f ________: var(--paragraph-font);
-    m________: __________ ;
-    p________: __________;}
+    f__________: var(--paragraph-font);
+    m__________: __________ ;
+    p__________: __________;}
 
 header {
     padding: 20px;
@@ -36,12 +36,8 @@ nar {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
-}
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
-}
+    padding: 1rem; }
+nav a:link, nav a:visited {color: var(--nav-link-color);}
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
+nav a:hover {color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);}
