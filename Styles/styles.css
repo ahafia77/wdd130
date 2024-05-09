@@ -4,9 +4,9 @@ nav a {color: white;
 display: block;
 padding: 20px;}
 
+h1 {color: steelblue;}
 /* Class selectors */
 
-h1 {color: steelblue;}
 img {width: 150px;
 height: auto;
 border: 1px;
