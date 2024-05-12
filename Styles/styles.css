@@ -13,11 +13,12 @@ padding: 2px;
 box-shadow: 0 0 30px gray;}
 
 p {padding: 10px;}
-/* Class selectors */
+
 * {margin: 0;
 padding: 0;
 box-sizing: border-box;}
 
+/* Class selectors */
 .box { margin: 1rem;
 border: 1px solid rgba(0,0,0,.1);
 padding: 1rem;
