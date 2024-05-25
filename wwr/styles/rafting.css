@@ -44,12 +44,17 @@ header img {
 nav {
    background-color: var(--nav-background-color);
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
 nav a {
    color: var(--nav-link-color);
    padding: 1em;
+   text-decoration: none;;
+}
+nav a:hover {
+   background-color: var(--nav-hover-background-color);
+   color: var(--nav-hover-link-color);
 }
 .logo {
    max-width: 200px;
