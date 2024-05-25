@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+/* https://coolors.co/d6f6dd-dac4f7-f4989c-ebd2b4-acecf7 */
+:root {
+    --primary-color: #d6f6dd;
+    --secondary-color: #dac4f7;
+    --accent1-color: #f4989c;
+    --accent2-color: #ebd2b4;
+  
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Roboto', sans-serif;
+  
+    --nav-background-color: #025564;
+    --nav-link-color: #e3e3e3;
+    --nav-hover-link-color: #025564;
+    --nav-hover-background-color: #e3e3e3;
+  }
 h1,
 h2,
 h3,
@@ -21,20 +35,21 @@ body {
 header {
     padding: 20px;
     background-color: var(--acccent1-color);
+    
+    
 }
 
 p {
     padding: 25px;
 }
 
-nar {
-    background-color: var(--nav-backgroum-color);
+nav {
+    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
 
-nar {
-    display: block;
+nav a{
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
