@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2em;
+    color: #333;
+    background: #fff;
+}
+
+header {
+    margin: 0;
+    width: 650px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 1em .5em;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, Sans-serif;
+}
+
+/* label { */
+/* margin: 2em; */
+/* padding: 1px; */
+/* text-align: justify; */
+/* padding-right: 1rem; */
+/* } */
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+input [type="checkbox"] {
+    margin: 1em;
+    width: 100px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Roboto, Arial, Sans-serif;
+}
