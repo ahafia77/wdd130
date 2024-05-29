@@ -65,6 +65,14 @@ input [type="checkbox"] {
     vertical-align: bottom;
 }
 
+button {
+    max-width: 650px;
+    margin: 1em;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
 label,
 input,
 button,
