@@ -20,29 +20,44 @@
 *::before {
    box-sizing: border-box;
 }
+
 img {
+   height: auto;
    width: 100%;
 }
-header,
-main,
+
+div img {
+   display: block;
+   unicode-bidi: isolate;
+   margin: auto;
+   margin: 2px;
+   padding: 10px;
+}
+
+
 footer {
    max-width: 1000px;
    margin: 0 auto;
+   font-style: italic;
 }
 
 header {
    display: grid;
-   grid-template-columns: 150px auto;
-   gap: 20px;
-   align-items: center
+   grid-template-columns: 1fr 2fr;
+   align-items: center;
+   justify-items: auto;
+   background-color: #5870c09c;
+   margin: 10px auto;
 }
 
 header img {
+   border-radius: 100%;
    width: 100%;
 }
 
+
 nav {
-   background-color: var(--nav-background-color);
+   background-color: #025564;
    display: flex;
    justify-content: space-around;
 }
@@ -50,53 +65,76 @@ nav {
 nav a {
    color: var(--nav-link-color);
    padding: 1em;
-   text-decoration: none;;
+   text-decoration: none;
+   ;
 }
+
 nav a:hover {
    background-color: var(--nav-hover-background-color);
    color: var(--nav-hover-link-color);
 }
+
 .logo {
    max-width: 200px;
 }
+
 .sociallinks {
    text-decoration: none;
 }
+
 .hero {
-position: relative
+   position: relative
 }
+
 .hero h1 {
-   position:absolute;
+   position: absolute;
    top: 50px;
-   left:50px;
+   left: 50px;
    right: 50px;
    text-align: center;
 }
+
 .hero img {
    display: block;
    width: 100%;
-   height: auto;
+   height: 500px;
 }
+
 article {
-   position:absolute;
+   position: absolute;
    top: 150px;
-   left:50px;
+   left: 50px;
    right: 50px;
    background-color: var(--secondary-color);
    padding: 10px;
+   opacity: 1;
 }
+
 .hero article img {
    background-position: center;
-   width: 200px;
+   width: 230px;
    height: auto;
    float: right;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   display: grid;
+   font-family: var(--heading-font);
+   color: rgb(128, 179, 221) text-align: center;
+   letter-spacing: 1px;
 
+}
 
-
-
-
-
-
-
+::selection {
+   display: grid;
+   grid-template-columns: 1fr 5px 200px 1fr;
+   grid-template-rows: 50px 1fr;
+   justify-items: center;
+   align-items: center;
+   justify-content: space-between;
+}

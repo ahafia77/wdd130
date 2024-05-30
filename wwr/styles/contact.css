@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* https://coolors.co/d6f6dd-dac4f7-f4989c-ebd2b4-acecf7 */
+
+* {
+    --primary-color: hwb(25 72% 12%);
+    --secondary-color: hsl(298, 69%, 39%);
+    --accent1-color: hsl(0, 6%, 46%);
+    --accent2-color: #fffbfb;
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Playfair Display', serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--primary-color);
+    margin: 10px auto;
+}
+
+header,
+main,
+footern {
+    max-width: 1025px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    margin: 1.5rem;
+    padding: 2rem;
+}
+
+main {
+    background: rgb(209, 224, 233);
+    color: antiquewhite font-size: medium;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    font-size: medium;
+    font-style: italic;
+}
+
+div,
+select {
+    display: block;
+    unicode-bidi: isolate;
+    background-color: white;
+}
+
+.picture {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    justify-content: space-around;
+    justify-items: center;
+    margin: 25px;
+}
+
+.picture img {
+    justify-content: space-around;
+    justify-items: center;
+    display: block;
+    width: 235px;
+    height: 220px;
+    margin: 1rem;
+    padding: 1px;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+figure {
+    display: block;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+    letter-spacing: 1.5px;
+
+}
+
+form {
+    background-color: rgb(185, 194, 191);
+    display: grid;
+    -ms-grid-row-align: var(--accent1-color);
+}
+
+button {
+    display: flex;
+    background-color: rgb(126, 126, 155);
+}
+
+footer {
+    background-color: rgb(118, 122, 106);
+    display: flexbox;
+    font-size: medium;
+
+}
+
+input,
+textarea {
+    padding: 1rem;
+    margin: 1rem;
+    box-sizing: content-box;
+}
+
+.socialinks a {
+    padding-left: 0%;
+    padding-right: 0%;
+
+}
+
+.socialinks img {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    padding: 1em;
+    margin: 1.5rem;
+}
+
+header img {
+    border-radius: 100%;
+    padding: 2px;
+    margin: 1.5px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-size: 1.0rem;
+    font-weight: 900;
+    font-style: oblique;
+}
+
+.submit {
+    margin: 1em;
+    padding: 1.5px;
+}
