@@ -84,10 +84,10 @@ h3,
 h4,
 h5 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: thistle;
     text-align: center;
     letter-spacing: 1.5px;
-
+    text-decoration: none;
 }
 
 form {
