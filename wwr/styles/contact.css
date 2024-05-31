@@ -97,6 +97,7 @@ form {
 }
 
 button {
+    align-items: center;
     display: flex;
     background-color: rgb(126, 126, 155);
 }
