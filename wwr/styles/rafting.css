@@ -51,11 +51,16 @@ header img {
 
 
 nav {
-   background-color: #025564;
    display: flex;
    justify-content: space-around;
 }
-
+footer a {
+   text-decoration: none;
+}
+footer {
+   
+   background-color: #476d74
+}
 head {
    width: 100%;
 }
@@ -161,7 +166,7 @@ section {
    grid-template-columns: repeat(3, 200px);
    justify-content: space-around;
    justify-items: center;
-   margin: 25px;
+   
 }
 
 .picture img {
@@ -189,17 +194,18 @@ figure {
    justify-self: center;
 }
 
-form {
-   background-color: rgb(185, 194, 191);
-   grid-column: 1/-1;
-   max-width: 500px;
-   justify-self: center;
-   display: grid;
-   grid-template-columns: 1fr 3fr;
-   gap: 2em;
-   align-items: center;
-   ;
-}
+
+   form {
+      width: 650px;
+      margin: 10px 0;
+      padding: 1rem;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0.5rem;
+      background-color: #eee;
+      display: grid;
+      font-size: 18px;
+  }
+
 
 label {
    grid-column: 1;
@@ -217,6 +223,10 @@ button {
    display: flex;
    flex-direction: column;
 }
+footer a {
+   grid-column: 1 / 2;
+   grid-row: 1 / 2;
+}
 
 input,
 textarea {
@@ -228,8 +238,7 @@ textarea {
 .submit {
    grid-column: 1/-1;
    margin: 2em;
-
-   justify-self: left;
+ 
    padding: 1em;
    border-radius: 10px;
 }
@@ -311,9 +320,7 @@ div {
 }
 
 article {
-   width: 500px;
    background-color: #ccc;
-   padding: 100px 20px;
    margin-left: 10px;
    font-size: 18px;
    text-align: center;
