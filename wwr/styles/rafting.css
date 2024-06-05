@@ -28,7 +28,9 @@ img {
 
 
 
-header, main ,footer {
+header,
+main,
+footer {
    max-width: 1000px;
    margin: 0 auto;
 }
@@ -53,6 +55,11 @@ nav {
    display: flex;
    justify-content: space-around;
 }
+
+head {
+   width: 100%;
+}
+
 
 nav a {
    color: var(--nav-link-color);
@@ -120,8 +127,8 @@ h6 {
    color: rgb(128, 179, 221)
 }
 
-.selection {
-   display: grid;
+section {
+
    grid-template-columns: 1fr 5px 200px 1fr;
    grid-template-rows: 50px 1fr;
    justify-items: center;
@@ -190,7 +197,8 @@ form {
    display: grid;
    grid-template-columns: 1fr 3fr;
    gap: 2em;
-   align-items: center;;
+   align-items: center;
+   ;
 }
 
 label {
@@ -220,7 +228,7 @@ textarea {
 .submit {
    grid-column: 1/-1;
    margin: 2em;
-  
+
    justify-self: left;
    padding: 1em;
    border-radius: 10px;
@@ -232,4 +240,169 @@ textarea {
 
 .checkbox-item {
    grid-column: 1/-1;
+}
+
+main {
+   background-color: rgb(126, 126, 155);
+}
+
+.cta {
+   color: var(--primary-color);
+   background-color: var(--nav-background-color);
+   border-radius: 10px;
+   cursor: pointer;
+   font-size: 0.9rem;
+   padding: 1em 2em;
+   margin: 3em;
+}
+
+
+.prompt {
+   position: relative;
+   max-width: 600px;
+   font-size: 32px;
+   text-align: center;
+   margin-top: 15px;
+   grid-area: prompt;
+}
+
+.prompt h1 {
+   color: var(--accent1-color);
+   position: absolute;
+   background-color: rgba(0, 0, 0, .6);
+   top: 10px;
+   left: 0;
+   right: 0;
+   max-width: 600px;
+}
+
+.p {
+   display: grid;
+   align-items: center;
+}
+
+
+.prompt img {
+   max-width: 600px;
+}
+
+.flex-collage {
+   grid-area: collage;
+}
+
+section img {
+   display: flex;
+   font-display: var(--heading-font);
+}
+
+div {
+   display: grid;
+   align-items: center;
+}
+
+.grid-trips {
+   display: grid;
+   max-width: 1200px;
+   grid-template-columns: 5fr 4fr;
+   grid-template-areas:
+      "prompt trip-table"
+      "collage collage";
+   justify-items: center;
+}
+
+article {
+   width: 500px;
+   background-color: #ccc;
+   padding: 100px 20px;
+   margin-left: 10px;
+   font-size: 18px;
+   text-align: center;
+}
+
+.thead {
+   display: table-header-group;
+   vertical-align: middle;
+}
+
+.tr {
+   display: table-row;
+   vertical-align: inherit;
+}
+
+th,
+td {
+   border: 2px solid rgb(173, 123, 47);
+   border-radius: 10px;
+   /* padding: 0 10px; */
+   background-color: #ccc;
+}
+
+section h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   align-items: center;
+   display: grid;
+   font-family: var(--heading-font);
+   color: rgb(128, 179, 221);
+}
+
+thead th {
+   background-color: var(--accent2-color);
+   padding: 10px 5px;
+}
+
+table {
+   border: 5px solid var(--accent2-color);
+   border-radius: 15px;
+   background-color: rgb(173, 123, 47);
+   text-align: center;
+   text-wrap: nowrap;
+   grid-area: trip-table;
+}
+
+.hero {
+   position: relative;
+   grid-area: hero;
+}
+
+section {
+   margin: 10%;
+}
+
+.home {
+   max-width: 560px;
+   justify-self: center;
+}
+
+.flex-form {
+   display: flex;
+   justify-content: center;
+   grid-area: news-form;
+}
+
+.grid-home {
+   display: grid;
+   max-width: 1200px;
+   grid-template-columns: 1fr 1fr;
+   grid-template-areas:
+      "hero hero"
+      "news-form prompt"
+      "services services";
+}
+
+.grid-services {
+   display: grid;
+   grid-area: services;
+   grid-template-columns: 1fr 1fr;
+   justify-items: center;
+}
+
+ .prompt  {
+   background-color: #ddd;
+   border: 5px solid var(--accent2-color);
+   border-radius: 15px;
+   padding: 0 15px 15px;
 }
