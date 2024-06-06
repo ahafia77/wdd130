@@ -40,7 +40,7 @@ header {
    grid-template-columns: 1fr 2fr;
    align-items: center;
    justify-items: center;
-   background-color: #5870c09c;
+   background-color: #241635;
    margin: 10px auto;
 }
 
@@ -53,6 +53,7 @@ header img {
 nav {
    display: flex;
    justify-content: space-around;
+   background-color: #025564;
 }
 footer a {
    text-decoration: none;
@@ -142,7 +143,6 @@ section {
 }
 
 .contact-main {
-   display: grid;
    grid-template-columns: repeat(4, 1fr);
 }
 
@@ -252,7 +252,7 @@ textarea {
 }
 
 main {
-   background-color: rgb(126, 126, 155);
+   background-color: rgb(206, 206, 247);
 }
 
 .cta {
